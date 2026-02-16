@@ -6,32 +6,32 @@ The following steps define how to create a reusable library based on the v3.01 U
 
 ![S1-2](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-2.png)
 
-4.	Find and Replace *../../../../../UI/FwkUISession* with *{Session}* on the **ZoneScreen** Folder
+3.	Find and Replace *../../../../../UI/FwkUISession* with *{Session}* on the **ZoneScreen** Folder
 
 ![S1-3](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-3.png)
 
-6.	Create a Folder in the UI Folder called *UI_URC* and a sub-folder called *Screens*. Drag all Screens from the **UI/Screens** folder to the **UI/UI_URC/Screens** folder. Select **Move** when prompted.
+4.	Create a Folder in the UI Folder called *UI_URC* and a sub-folder called *Screens*. Drag all Screens from the **UI/Screens** folder to the **UI/UI_URC/Screens** folder. Select **Move** when prompted.
 
 ![S1-4](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-4.png)
 
-8.	Drag the remaining UI Folders (**Stylesheets, Framework, and Panels**) to the **UI_URC** folder. Select **Move** when prompted.
+5.	Drag the remaining UI Folders (**Stylesheets, Framework, and Panels**) to the **UI_URC** folder. Select **Move** when prompted.
 
 ![S1-5](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-5.png)
 
-10.	Create a Folder in the Model Folder called *Model_URC* and drag all Folders from the **Model** Folder into the newly created **Model/Model_URC** Folder. Select **Move** when prompted.
+6.	Create a Folder in the Model Folder called *Model_URC* and drag all Folders from the **Model** Folder into the newly created **Model/Model_URC** Folder. Select **Move** when prompted.
 
 ![S1-6](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-6.png)
 
-12.	Drag the **Model/Model_URC** Folder into the **UI/UI_URC** Folder. Select **Move** when prompted.
+7.	Drag the **Model/Model_URC** Folder into the **UI/UI_URC** Folder. Select **Move** when prompted.
 
 ![S1-7](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-7.png) 
 
-14.	Save the project.
-15.	Open the Template Libraries and create a new Library with a custom name to define your URC library.
+8.	Save the project.
+9.	Open the Template Libraries and create a new Library with a custom name to define your URC library.
 
 ![S1-9](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-9.png)
 
-17.	Drag the **UI/FwkUISession (type), UI/UI_URC Folder, and Retentivity/RoboticsApplicationRetentivityStorage** objects into the newly created Library.
+10.	Drag the **UI/FwkUISession (type), UI/UI_URC Folder, and Retentivity/RoboticsApplicationRetentivityStorage** objects into the newly created Library.
 
 ![S1-10](https://github.com/cdal3/FTOptixImportURCProcedure/blob/main/Images/1-10.png) 
  
@@ -42,7 +42,7 @@ The following steps define how to instantiate the library elements into an exist
 -	NativePresentationEngine
 -	WebPresentationEngine
 -	RAEtherNet_IPStation with the URC Device Handler and Robot rOS program tags imported
--	A PanelLoader named *PanelLoader_Main* on the MainWindow
+-	A PanelLoader named *PanelLoader_Main* on the **MainWindow**
 > [!Note] 
 > If you choose to place the URC content elsewhere, see **Appendix A** for reconfiguring the navigation buttons
 3.	Open the URC Template Library.
